@@ -15,8 +15,8 @@ let leftWrist = {
 let capture;
 function preload() {
   soundFormats("mp3", "ogg");
-  music1 = loadSound("sound/music1.mp3");
-  music2 = loadSound("sound/music2.mp3");
+  music1 = loadSound("music1.mp3");
+  music2 = loadSound("music2.mp3");
 }
 let video;
 let modelLoaded = () => {
